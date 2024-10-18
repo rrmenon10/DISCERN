@@ -1,0 +1,21 @@
+{
+    "exp_mode": "retrain",
+    "classifier": "roberta-large",
+    "seed": 0,
+    "dataset": "ag_news",
+    "new_train_examples": 100,
+    "use_augment": true,
+    "time_it": false,
+    "clf_lr": 2e-5,
+    "clf_train_batch_size": 32,
+    "clf_eval_batch_size": 64,
+    "clf_num_train_epochs": 3,
+    "clf_warmup_steps": 600,
+    "clf_max_seq_length": 128,
+    "clf_grad_accumulation_factor" : 1,
+    "clf_eval_strategy": "epoch",
+    "clf_save_strategy": "epoch",
+    "clf_load_best_model_at_end": true,
+    "clf_report_to": "none",
+    "num_train_examples": 5000
+}

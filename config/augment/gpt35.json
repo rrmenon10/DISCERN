@@ -1,0 +1,6 @@
+{
+    "exp_mode": "augment",
+    "dataset": "ag_news",
+    "llm_weight": "gpt-3.5-turbo-0125",
+    "evaluator_llm_weight": "mistralai/Mixtral-8x7B-Instruct-v0.1"
+}

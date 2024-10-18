@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.csv
+*.out
+*.pkl
+data
+hf_cache
+!data/covid
+!src/data
