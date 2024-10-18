@@ -1,0 +1,17 @@
+Here are a group of sentences:
+
+{samples_in_prompt}
+
+Generate a single-line predicate description that incorporates the specific word or label '{label}'.
+
+Your response should be formatted in the following manner:
+Thoughts:
+1. The sentences are mainly <type of sentences>.
+2. The sentences talk about <topic>.
+3. I will also focus on the following attributes about the sentences in the generated predicate to be precise: <list of attributes>
+PREDICATE:
+- "<predicate>"
+
+Try to make sure that the generated predicate is precise and will only satisfy the examples mentioned above.
+
+Thoughts:

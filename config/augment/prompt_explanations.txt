@@ -1,0 +1,13 @@
+In this task, you will be shown some examples sentences that share a property given by the predicate below. Your task is to generate 100 more diverse examples that satisfy the predicate.
+
+Predicate: {predicate}
+
+The examples you generate should follow the style and content of the examples mentioned below:
+{samples_in_prompt}
+
+Consider the linguistic style, content, length, and overall structure of the provided examples. Your generated examples should resemble the provided set in terms of these aspects. Aim to produce sentences that convey similar information or ideas while maintaining consistency in tone, vocabulary, and grammatical structure.
+
+Feel free to vary the details and specifics while ensuring that the generated examples capture the essence of the provided set. Pay attention to context, coherence, and any relevant patterns present in the examples to produce outputs that closely align with the given set.
+
+Your response:
+- 

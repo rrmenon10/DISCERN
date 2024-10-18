@@ -1,0 +1,36 @@
+You were asked to provide a single-line predicate description for a set of examples (let's call this CLUSTER_1) shown below:
+
+{samples_in_prompt}
+
+You generated the following description: "{description}"
+
+This description satisfied the following examples:
+
+{self_identified}
+
+However, the description also identifies with the following examples (that it should not ideally) (let's call this CLUSTER_2 examples):
+
+{others_not_null_identified}
+
+In other words, the current description explains {pass_rate:.1f}\% examples in CLUSTER_1 and {fail_rate:.1f}\% examples in CLUSTER_2.
+
+Please re-write the description that explain only examples from CLUSTER_1 while excluding examples from CLUSTER_2.
+
+Try to make descriptions simple and general. For example, you could focus on the syntax, topic, writing style, etc.
+First, for the failing description above, explain why the description does not accomplish the goal of describing only the examlpes in CLUSTER_1. Output this reasoning as:
+Thoughts:
+1. The examples in CLUSTER_1 and CLUSTER_2 talk about one common topic: {label}.
+2. The examples in CLUSTER_1 emphasize on <CLUSTER_1 description>.
+3. Whereas, the examples in CLUSTER_2 emphasize on <CLUSTER_2 description>.
+4. The previous description failed because <reason>.
+5. The examples in CLUSTER_2 are about "<reason>" which is not present in CLUSTER_1. I will focus on mentioning this reason in the new predicate.
+Then output the description so that it explains only examples in CLUSTER_1, using the following format: 
+NEW PREDICATE: 
+- "<more precise-yet-simple CLUSTER_1 description that highlights difference with CLUSTER_2>"
+
+Note: The new predicate has to be strictly different from the previous one.
+Note: Do not mention the words CLUSTER_1 or CLUSTER_2 in your new predicate. It should be part of your thought process however.
+
+
+Thoughts:
+1. The examples in CLUSTER_1 and CLUSTER_2 talk about one common topic: {label}.
