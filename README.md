@@ -1,6 +1,6 @@
 # DiScErN: Decoding Systematic Errors in Natural Language for Text Classifiers
 
-Code for the EMNLP 2024 paper: [DiScErN: Decoding Systematic Errors in Natural Language for Text Classifiers]()
+Code for the EMNLP 2024 paper: [DiScErN: Decoding Systematic Errors in Natural Language for Text Classifiers](https://arxiv.org/abs/2410.22239)
 
 ## Environment Setup
 
